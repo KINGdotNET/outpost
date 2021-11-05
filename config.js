@@ -27,6 +27,8 @@ export const AXIOS_CACHE_CONFIG = {
   maxAge: 0 * 60 * 1000, // 0 minutes
   exclude: { query: false }
 }
+export const POST_FOOTER: '\n\n---\n\n<center><sub>Posted via [SexToken.com](${POST_URL})</sub> - Freedom of Expression</center>'
+export const COMMENT_FOOTER: '\n\n---\n\n<center><sub>Posted via [SexToken.com](${POST_URL})</sub> - Freedom of Expression</center>'
 export const NFT_ENABLED = false
 export const NFT_SYMBOL = 'SEX'
 export const NFT_MARKETPLACE = 'sextoken'
