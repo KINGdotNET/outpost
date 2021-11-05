@@ -27,11 +27,11 @@ export const AXIOS_CACHE_CONFIG = {
   maxAge: 0 * 60 * 1000, // 0 minutes
   exclude: { query: false }
 }
-export const NFT_ENABLED = false
+export const NFT_ENABLED = true
 export const NFT_SYMBOL = 'SEX'
 export const NFT_MARKETPLACE = 'sextoken'
 export const NFT_MARKETPLACE_API = 'https://api.marketplace.tribaldex.com'
-export const DTF_ENABLED = false
-export const DTF_ID = 'PAL:PAL'
-export const POOL_ENABLED = false
+export const DTF_ENABLED = true
+export const DTF_ID = 'SEX:SEX'
+export const POOL_ENABLED = true
 export const IPFS_GATEWAY = 'https://ipfs.tribaldex.com'
