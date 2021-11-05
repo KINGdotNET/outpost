@@ -9,7 +9,7 @@ export const IMAGES_CDN = 'https://images.hive.blog/'
 export const IMAGE_UPLOAD_SERVER = 'https://images.hive.blog'
 export const NODES = ['https://api.hive.blog', 'https://api.deathwing.me', 'https://rpc.ausbit.dev', 'https://api.ha.deathwing.me']
 export const COMMUNITY_CATEGORY = 'hive-105477'
-export const AUTO_ADD_COMMUNITY = true
+export const AUTO_ADD_COMMUNITY = false
 export const SCOT_TAG = 'sextoken'
 export const SCOT_TAG_FIRST = true
 export const MAX_TAG = 10
@@ -27,8 +27,6 @@ export const AXIOS_CACHE_CONFIG = {
   maxAge: 0 * 60 * 1000, // 0 minutes
   exclude: { query: false }
 }
-export const POST_FOOTER: '\n\n---\n\n<center><sub>Posted via [SexToken.com](${POST_URL})</sub> - Freedom of Expression</center>'
-export const COMMENT_FOOTER: '\n\n---\n\n<center><sub>Posted via [SexToken.com](${POST_URL})</sub> - Freedom of Expression</center>'
 export const NFT_ENABLED = false
 export const NFT_SYMBOL = 'SEX'
 export const NFT_MARKETPLACE = 'sextoken'
