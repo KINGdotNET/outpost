@@ -2,7 +2,7 @@ import { version } from './package.json'
 
 export const TOKEN = 'SEX'
 export const IS_HIVE = true
-export const APP_DOMAIN = 'https://www.sextoken.com'
+export const APP_DOMAIN = 'https://sextoken.com'
 export const APP_TITLE = 'SexToken.com'
 export const APP = `sextoken/${version}`
 export const IMAGES_CDN = 'https://images.hive.blog/'
