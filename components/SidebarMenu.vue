@@ -46,6 +46,12 @@
       <b-list-group-item target="_blank" :href="`https://tribaldex.com/trade/${$config.TOKEN}`">
         Trade {{ $config.TOKEN }} Token <fa-icon icon="external-link-alt" />
       </b-list-group-item>
+      <b-list-group-item target="_blank" :href="`https://tribaldex.com/trade/SWAP`">
+        Trade SWAP Token <fa-icon icon="external-link-alt" />
+      </b-list-group-item>
+      <b-list-group-item target="_blank" :href="`https://tribaldex.com/trade/PESOS`">
+        Trade PESOS Token <fa-icon icon="external-link-alt" />
+      </b-list-group-item>      
     </b-list-group>
 
     <b-list-group class="mt-3" flush>
@@ -61,15 +67,20 @@
       <b-list-group-item target="_blank" :to="{name:'socialmedia'}">
         Decentralized Social Media
       </b-list-group-item>
+    </b-list-group>
 
+  <b-list-group class="mt-3" flush>
       <b-list-group-item class="font-weight-bold" disabled>
         Community
       </b-list-group-item>
       <b-list-group-item target="_blank" :href="`https://twitter.com/swaptoken`">
-        Follow us @SwapToken
+        Follow @SwapToken (Project Update)
+      </b-list-group-item>
+      <b-list-group-item target="_blank" :href="`https://twitter.com/yehey`">
+        Follow @Yehey (DevOps)
       </b-list-group-item>
 
-    </b-list-group>
+  </b-list-group>
 
     <template #footer>
       <div class="text-center pb-2 d-md-none">
