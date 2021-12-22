@@ -2,6 +2,7 @@ import { version } from './package.json'
 
 export const TOKEN = 'SEX'
 export const IS_HIVE = true
+<<<<<<< HEAD
 export const APP_DOMAIN = 'https://sextoken.com'
 export const APP_TITLE = 'SexToken.com'
 export const APP = `sextoken/${version}`
@@ -9,11 +10,11 @@ export const IMAGES_CDN = 'https://images.hive.blog/'
 export const IMAGE_UPLOAD_SERVER = 'https://images.hive.blog'
 export const NODES = ['https://api.hive.blog', 'https://api.deathwing.me', 'https://rpc.ausbit.dev', 'https://api.ha.deathwing.me']
 export const COMMUNITY_CATEGORY = 'hive-105477'
-export const AUTO_ADD_COMMUNITY = false
+export const AUTO_ADD_COMMUNITY = true
 export const SCOT_TAG = 'sextoken'
 export const SCOT_TAG_FIRST = true
 export const MAX_TAG = 10
-export const SCOT_API = 'https://smtscot.cryptoempirebot.com'
+export const SCOT_API = 'https://ha.smt-api.dtools.dev'
 export const SCOT_QUERY_LIMIT = 10
 export const CURATED_FEED = false
 export const CURATED_FEED_ACCOUNT = 'sextoken'
